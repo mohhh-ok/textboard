@@ -1,5 +1,15 @@
 # textboard
 
+> **Moved to [mohhh-ok/agent-boards](https://github.com/mohhh-ok/agent-boards).** textboard now lives there together with moodboard and reportboard; this repository is archived.
+>
+> ```sh
+> bun remove -g textboard
+> bun install -g github:mohhh-ok/agent-boards
+> npx skills add mohhh-ok/agent-boards
+> ```
+>
+> The `textboard` command, its arguments and its behavior are unchanged.
+
 A window for revising text together with your AI.
 
 When your coding agent (Claude Code etc.) writes a document — a README, an article, a spec — it opens the file in textboard. You edit the text directly, leave comments on any passage, and send an instruction back to the agent ("address my comments", "make it shorter"). The agent rewrites the file, and the window reloads it. It is the text counterpart of [moodboard](https://github.com/mohhh-ok/moodboard).
